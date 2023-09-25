@@ -8,7 +8,12 @@
                                 <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
                                 <div *ngIf="errors.username" class="invalid-feedback">{{ errors.username }}</div>
                             </div>
+
+
+
                             <div class="pt-3 mb-3">
+
+                                
                                 <div class="input-group input-group-merge">
                                     <input type="{{type}}" id="password" name="password_user" class="form-control pwd" placeholder="Contraseña" (keyup.enter)="login()">
                                     <div class="input-group-text" id="show-password" data-password="false">
